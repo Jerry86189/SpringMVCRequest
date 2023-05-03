@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.jerry86189</groupId>
-    <artifactId>SpringMVCRequest</artifactId>
+    <artifactId>SpringMVCRequestDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -150,7 +150,7 @@
     </dependencies>
 
     <build>
-        <finalName>flightTicket</finalName>
+        <finalName>SpringMVCRequestDemo</finalName>
     </build>
 
 </project>
