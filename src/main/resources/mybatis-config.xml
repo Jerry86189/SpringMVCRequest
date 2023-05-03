@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <package name="com.jerry86189.entity"/>
+    </typeAliases>
+    <mappers>
+        <mapper resource="com/jerry86189/mapper/AdministratorMapper.xml"/>
+        <mapper resource="com/jerry86189/mapper/CancellationMapper.xml"/>
+        <mapper resource="com/jerry86189/mapper/FlightMapper.xml"/>
+        <mapper resource="com/jerry86189/mapper/PassengerMapper.xml"/>
+        <mapper resource="com/jerry86189/mapper/PaymentMapper.xml"/>
+        <mapper resource="com/jerry86189/mapper/TicketMapper.xml"/>
+    </mappers>
+</configuration>
